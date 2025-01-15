@@ -1,0 +1,71 @@
+:root{
+  --font-family: "Urbanist", sans-serif;
+  --second-family: "Inter", sans-serif;
+  width: 100%;
+  background-color: #fdfefb;
+
+ 
+    
+
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul{
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container{
+  --font-family: "Urbanist", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+
+@media (min-width: 1200px) {
+.container{
+  margin: 0;
+  padding: 0 20px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    padding:0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding:0 10px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
