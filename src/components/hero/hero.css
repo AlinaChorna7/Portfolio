@@ -1,0 +1,35 @@
+.hero {
+    background: linear-gradient(to bottom, #bbdafa, #ffffff);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+  }
+  
+  .hero-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  .hero-text{
+    font-size: 28px;
+    color: #424242;
+    font-weight: 550;
+  }
+
+  @media (min-width:768px) {
+    .hero{
+        height:80vh ;
+      
+    }
+
+    .hero-title{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+  }
+

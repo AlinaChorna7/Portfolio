@@ -1,0 +1,13 @@
+
+.about-section{
+    background: linear-gradient(to bottom, #ffffff, #b189da);
+    
+}
+
+.about-title{
+    font-size: 32px;
+    font-weight: bold;
+text-align: center;
+color: #333333;
+border-bottom: 1px solid #333333;
+};

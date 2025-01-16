@@ -1,14 +1,9 @@
 
-:root {
-  --background-color: #bbdafa;
-  --text-color: #333333;
-  --hover-color: #41badb;
-  --mobile-menu-bg: #bbdafa;
-}
+
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+
   overflow-x: hidden;
 }
 
@@ -18,10 +13,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  background-color: var(--background-color);
+  background-color: #bbdafa;
   position: relative;
   z-index: 10;
-  border-bottom: 1px solid #ddd;
+ 
 }
 
 
@@ -37,7 +32,7 @@ body {
 }
 
 .menuIcon {
-  fill: var(--text-color);
+  fill: #333333;
   width: 30px;
   height: 30px;
   transition: transform 0.3s ease;
@@ -54,14 +49,14 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: var(--text-color);
+  color: #333333;
   margin: 0 1rem;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .nav a:hover {
-  color: var(--hover-color);
+  color: #41badb;
 }
 
 
@@ -72,7 +67,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: var(--mobile-menu-bg);
+  background: linear-gradient(to bottom, #bbdafa, #ffffff);
   z-index: 15;
   overflow: hidden;
   transform: translateY(-100%);
@@ -95,7 +90,7 @@ body {
 
 .mobileMenuItem {
   text-decoration: none;
-  color: var(--text-color);
+  color: #333333;
   margin: 1rem 0;
   font-size: 1.5rem;
   font-weight: bold;
@@ -103,7 +98,7 @@ body {
 }
 
 .mobileMenuItem:hover {
-  color: var(--hover-color);
+  color: #41badb;
 }
 
 
@@ -118,7 +113,7 @@ body {
 }
 
 .closeHeader {
-  fill: var(--text-color);
+  fill: #333333;
   width: 30px;
   height: 30px;
 }
