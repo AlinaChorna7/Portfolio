@@ -41,7 +41,7 @@ const Header = () => {
           onClick={toggleMenu}
         >
           <svg width="40px" height="40px" className={styles.closeHeader}>
-            <use href="/images/icons.svg#icon-x-mark" />
+            <use href="/images/icons.svg#icon-close" />
           </svg>
         </button>
         <nav className={styles.menuNav}>
