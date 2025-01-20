@@ -31,6 +31,9 @@ img{
   height: auto;
 }
 
+body{
+  background: linear-gradient(to bottom, #bbdafa, #ffffff);
+}
 
 .container{
   --font-family: "Urbanist", sans-serif;

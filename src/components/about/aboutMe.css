@@ -1,13 +1,162 @@
-
-.about-section{
-    background: linear-gradient(to bottom, #ffffff, #b189da);
+/* Загальні стилі для секції */
+.about-section {
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 20px;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .about-text {
+    color: #333333;
+    font-size: 14px; 
+    line-height: 1.5;
     
+  }
+  
+  /* Стилі для мобільних пристроїв (базові) */
+  .custom-toggle-btn {
+    background-color: transparent;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-toggle-btn:hover {
+    background-color: #eaeaea;
+  }
+  
+  .custom-accordion {
+    border: none;
+    margin-top: 30px;
+  }
+  
+  .custom-accordion .accordion-item {
+    margin-bottom: 10px;
+    border: none;
+  }
+  
+  .custom-accordion .accordion-body {
+    background-color: #f9f9f9;
+    color: #333333;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+    border-radius: 5px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+.skills-item{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(147, 196, 243);
+    background-color: rgb(155, 199, 240);
+    border-radius: 20px;
+    transition: background-color  0.3s ease;
+    color:#555d63;
 }
 
-.about-title{
-    font-size: 32px;
-    font-weight: bold;
-text-align: center;
-color: #333333;
-border-bottom: 1px solid #333333;
-};
+.skills-item:hover{
+    background-color: rgb(131, 189, 243);
+}
+ 
+  @media (min-width: 768px) {
+    .about-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    .about-text {
+      font-size: 16px;
+    }
+  
+    .custom-toggle-btn {
+      font-size: 16px;
+    }
+  
+    .custom-accordion .accordion-body {
+      font-size: 15px;
+      
+    }
+  }
+  
+  /* Для великих екранів (десктопи) */
+  @media (min-width: 1024px) {
+    .about-section {
+      padding: 40px;
+      max-width: 1200px;
+    }
+  
+    .about-title {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+  
+    /* Основний контейнер: горизонтальне відображення */
+    .about-container {
+      flex-direction: row;
+      gap: 30px;
+    }
+  
+    .about-info {
+      flex: 1;
+    }
+  
+    .skills {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .about-text {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+  
+    .custom-toggle-btn {
+      font-size: 18px;
+    }
+  
+    .custom-accordion .accordion-body {
+      font-size: 16px;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  
+    /* Навички: горизонтальне відображення */
+  
+    .skills-item {
+      width: calc(50% - 10px);
+      font-size: 16px;
+    }
+  
+    .skills-title {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  }
+  
