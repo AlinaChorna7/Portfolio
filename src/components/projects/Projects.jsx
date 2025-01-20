@@ -14,33 +14,33 @@ return(
 
                 <li className="projects-item">
                     <div className='item-container'>
-                        <img/>
+                        <img src='/images/wed.png' alt='screenshot of hero' className='project-images'/>
                         <h5 className='item-title'></h5>
                         <p className='item-class'></p>
                     </div>
                 </li>
                 <li className="projects-item">  <div className='item-container'>
-                        <img/>
+                        <img src='/images/jefferson.png' alt='screenshot of hero' className='project-images'/>
                         <h5 className='item-title'></h5>
                         <p className='item-class'></p>
                     </div></li>
                 <li className="projects-item">  <div className='item-container'>
-                        <img/>
+                        <img src='/images/nutritionist.png' alt='screenshot of hero' className='project-images'/>
                         <h5 className='item-title'></h5>
                         <p className='item-class'></p>
                     </div></li>
                 <li className="projects-item">  <div className='item-container'>
-                        <img/>
+                        <img src='/images/movie.png' alt='screenshot of hero' className='project-images'/>
                         <h5 className='item-title'></h5>
                         <p className='item-class'></p>
                     </div></li>
                 <li className="projects-item">  <div className='item-container'>
-                        <img/>
+                        <img src='/images/organic.png' alt='screenshot of hero' className='project-images'/>
                         <h5 className='item-title'></h5>
                         <p className='item-class'></p>
                     </div></li>
                     <li className="projects-item">  <div className='item-container'>
-                        <img/>
+                        <img src='images/water.png' alt='screenshot of hero' className='project-images'/>
                         <h5 className='item-title'></h5>
                         <p className='item-class'></p>
                     </div></li>
