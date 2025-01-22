@@ -80,7 +80,7 @@ const ContactMe = () => {
         <input
           type="text"
           id="name"
-          name="name"
+          name="user_name"
           placeholder="Enter your name"
           required
         />
@@ -89,7 +89,7 @@ const ContactMe = () => {
         <input
           type="email"
           id="email"
-          name="email"
+          name="user_email"
           placeholder="Enter your email"
           required
         />

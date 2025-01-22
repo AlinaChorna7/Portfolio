@@ -103,16 +103,16 @@ form textarea {
     margin-bottom: 15px;
     border: 1px solid #93d0f8;
     border-radius: 10px;
-    background-color: #e6f3fc;
+    background-color: #ffffff;
     font-size: 16px;
     color: #333333;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
+    transition: border-color 0.3s ease;
 }
 
 form input:focus,
 form textarea:focus {
-    border-color: #8ec9f0;
-    background-color: #ffffff;
+    border-color: #33a0e9;
+    
     outline: none;
 }
 
