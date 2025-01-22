@@ -1,4 +1,4 @@
-/* Загальні стилі для секції */
+
 .about-section {
     padding: 20px;
     margin: 0 auto;
@@ -27,7 +27,6 @@
     
   }
   
-  /* Стилі для мобільних пристроїв (базові) */
   .custom-toggle-btn {
     background-color: transparent;
     border: none;
@@ -104,7 +103,7 @@
     }
   }
   
-  /* Для великих екранів (десктопи) */
+  
   @media (min-width: 1024px) {
     .about-section {
       padding: 40px;
@@ -116,7 +115,7 @@
       margin-bottom: 30px;
     }
   
-    /* Основний контейнер: горизонтальне відображення */
+    
     .about-container {
       flex-direction: row;
       gap: 30px;
@@ -147,7 +146,7 @@
       margin-top: 60px;
     }
   
-    /* Навички: горизонтальне відображення */
+   
   
     .skills-item {
       width: calc(50% - 10px);

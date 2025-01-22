@@ -13,9 +13,12 @@
 }
 
 .projects-title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 24px; 
     font-weight: bold;
+    text-align: center;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 20px;
 }
 
 .git-repo{
@@ -97,12 +100,23 @@ a {
 }
 
 @media (min-width: 768px) {
+    .projects-title{
+
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
     .projects-list {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (min-width: 1024px) {
+    .projects-title{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
     .projects-list {
         grid-template-columns: repeat(3, 1fr);
     }
