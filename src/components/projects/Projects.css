@@ -1,5 +1,8 @@
 .projects-section {
-    padding: 50px 20px;
+    padding: 30px;
+    border-bottom: 1px solid #8ec9f0;
+    border-top: 1px solid #8ec9f0;
+
 }
 
 .projects-container {
@@ -17,7 +20,7 @@
     font-weight: bold;
     text-align: center;
     color: #333333;
-    border-bottom: 1px solid #333333;
+    
     margin-bottom: 20px;
 }
 

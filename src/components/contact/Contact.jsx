@@ -1,32 +1,80 @@
 import './Contact.css';
 import emailjs from "emailjs-com";
 
-const Contact = () => {
+const ContactMe = () => {
   const sendEmail = (e) => {
-    e.preventDefault(); // Забороняємо перезавантаження сторінки
+    e.preventDefault(); 
 
     emailjs
       .sendForm(
-        "your_service_id", // ID вашого сервісу
-        "your_template_id", // ID вашого шаблону
-        e.target, // Форма
-        "your_user_id" // Ваш публічний ключ (API Key)
+        "laneboi_service",
+        "template_laneboi", 
+        e.target, 
+        "sugkReJOnu6A3DSTY" 
       )
       .then(
         (result) => {
-          alert("Message sent successfully!", result);
+          alert("Message sent successfully!",result);
         },
         (error) => {
-          alert("Failed to send message. Please try again later.", error);
+          alert("Failed to send message. Please try again later.",error);
         }
       );
 
-    e.target.reset(); // Очистити форму після відправки
+    e.target.reset(); 
   };
 
   return (
     <section id="contact" className="contact-section">
-      <h3>Contact Me</h3>
+      <h3 className='project-title'>Contact Me</h3>
+      <div className='content-container'>
+      <div className='contacts-container'>
+        <h4 className='contactme'>Contacts me here</h4>
+        <ul className='contact-list'>
+          <li className="contacts-item">
+            <div>
+             <svg width="20px" height="20px" className='contacts-icons loc'>
+              <use href='/images/icons.svg#icon-location'/>
+             </svg>
+             <span>Warsaw, Poland</span>
+             </div>
+             </li>
+          <li className="contacts-item">
+            <svg width="20px" height="20px" className='contacts-icons phone'>
+              <use href='/images/icons.svg#icon-phone'/>
+            </svg>
+           < a href='tel:+48796241092'>+48796241092</a>
+          </li>
+          <li className="contacts-item">
+            <svg width="20px" height="20px" className='contacts-icons mail'>
+              <use href='/images/icons.svg#icon-email'/>
+            </svg>
+            <a href='mailto:alina.chorna322@gmail.com'>Alina.chorna322@gmail.com</a> 
+            </li>
+          <li className="contacts-item">
+            <svg width="20px" height="20px" className='contacts-icons git'>
+              <use href='/images/icons.svg#icon-github'/>
+            </svg>
+            <a href='https://github.com/AlinaChorna7' target='_blanc'>My Git Profile</a>
+            </li>
+
+          <li className="contacts-item">
+            <svg width="20px" height="20px" className='contacts-icons link'>
+              <use href='/images/icons.svg#icon-linkedin'/>
+            </svg>
+            <a href='https://www.linkedin.com/in/alina-chorna/' target='_blanc'>My LinkedIn Profile</a>
+            </li>
+            
+            <li className="contacts-item">
+            <svg width="20px" height="20px" className='contacts-icons cv'>
+              <use href='/images/icons.svg#icon-cv'/>
+            </svg>
+            <a href='fullstack-js-developer-alina-chorna.tiiny.site' target='_blanc'>My CV</a>
+            </li>
+        </ul>
+      </div>
+      <div className='form-container'>
+        <h4 className='contactme'>Leave your message</h4>
       <form onSubmit={sendEmail}>
         <label htmlFor="name">Your Name</label>
         <input
@@ -56,8 +104,10 @@ const Contact = () => {
 
         <button type="submit">Send Message</button>
       </form>
+      </div>
+      </div>
     </section>
   );
 };
 
-export default Contact;
+export default ContactMe;
