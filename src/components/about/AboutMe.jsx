@@ -1,7 +1,11 @@
 
 import './aboutMe.css';
 import { Accordion } from 'react-bootstrap';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import 'swiper/css';
 
+import 'swiper/css/scrollbar';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const AboutMe = () => {
@@ -54,7 +58,69 @@ const AboutMe = () => {
             </Accordion.Item>
           </Accordion>
         </div>
-        <div className="skills">
+        <div className='swiper'> 
+           <Swiper
+      // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={5}
+      
+      mousewheel={{ draggable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>JavaScript (ES6+)</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>HTML</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>CSS</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>REACT</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>REDUX</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>REST API</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>Node.js&Express</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>MongoDB</p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='skill-swiper-conteiner'>
+          <p className='skill-swiper-text'>TypeScript</p>
+        </div>
+      </SwiperSlide>
+    
+      
+
+      
+    </Swiper></div>
+        {/* <div className="skills">
           <h3 className='skills-title'>My tech skills</h3>
           <ul className="skills-list">
             <li className="skills-item">JavaScript (ES6+)</li>
@@ -76,7 +142,7 @@ const AboutMe = () => {
             <li className="skills-item">Attention to Detail</li>
             <li className="skills-item">Creativity</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </section>
   );
