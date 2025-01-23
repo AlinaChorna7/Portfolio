@@ -5,7 +5,7 @@ a {
 }
 
 a:hover {
-    color: #0A66C2; /* Плавний перехід кольору при наведенні */
+    color: #0A66C2; 
 }
 
 ul {
@@ -14,8 +14,8 @@ ul {
 
 .contact-section {
     padding: 30px 15px;
-    border-bottom: 1px solid #8ec9f0;
-    border-top: 1px solid #8ec9f0;
+    border-bottom: 1px solid #71a2b6;
+    border-top: 1px solid #71a2b6;
 }
 
 .project-title {
@@ -34,10 +34,12 @@ ul {
 
 .contacts-container {
     padding: 15px 20px;
-    background-color: #cde8fa;
-    border: 1px solid #93d0f8;
+    background-color: #71a2b6;
+    border: 1px solid #659fb6;
     border-radius: 15px;
 }
+
+
 
 .contact-list {
     display: flex;
@@ -49,7 +51,7 @@ ul {
 
 .contacts-item {
     padding: 10px;
-    background-color: #e6f3fc;
+    background-color: #ececec;;
     width: 250px;
     color: #333333;
     border-radius: 15px;
@@ -84,8 +86,8 @@ ul {
 
 .form-container {
     padding: 15px 20px;
-    background-color: #cde8fa;
-    border: 1px solid #93d0f8;
+    background-color: #71a2b6;
+    border: 1px solid #659fb6;
     border-radius: 15px;
 }
 
@@ -118,7 +120,7 @@ form textarea:focus {
 
 form button {
     padding: 10px 20px;
-    background-color: #0A66C2;
+    background-color: #3880c9;
     border: none;
     border-radius: 10px;
     color: #ffffff;
@@ -129,7 +131,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #064b94;
+    background-color: #6296ce;
 }
 
 @media (min-width: 768px) {
