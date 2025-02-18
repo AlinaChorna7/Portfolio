@@ -76,6 +76,15 @@ const AboutMe = () => {
             <li className="skills-item">Attention to Detail</li>
             <li className="skills-item">Creativity</li>
           </ul>
+          <h3 className='skills-title'>Languages I speak</h3>
+          <ul className="skills-list">
+            <li className="skills-item">English - B2</li>
+            <li className="skills-item">Polish - B2</li>
+            <li className="skills-item">Ukrainian - Native</li>
+            <li className="skills-item">Russian - C2</li>
+            <li className="skills-item">Italian - A1</li>
+            
+          </ul>
         </div>
       </div>
     </section>

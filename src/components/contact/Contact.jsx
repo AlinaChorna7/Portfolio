@@ -69,7 +69,7 @@ const ContactMe = () => {
             <svg width="20px" height="20px" className='contacts-icons cv'>
               <use href='/images/icons.svg#icon-cv'/>
             </svg>
-            <a href='fullstack-js-developer-alina-chorna.tiiny.site' target='_blanc'>My CV</a>
+            <a href='https://alinachornajsdeveloper.tiiny.site/' target='_blanc'>My CV</a>
             </li>
         </ul>
       </div>
