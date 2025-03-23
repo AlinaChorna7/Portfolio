@@ -1,36 +1,27 @@
-
-
-
 body {
   margin: 0;
-
   overflow-x: hidden;
 }
-
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  background-color: #bbdafa;
   position: relative;
   z-index: 10;
- 
 }
-
 
 .menuButton {
   background: none;
   border: none;
   cursor: pointer;
- margin-left: 0 auto;
-  
+  margin-left: 0 auto;
   padding: 0;
 }
 
 .menuIcon {
-  fill: #333333;
+  fill: #C4B5FD; /* Світло-фіолетовий */
   width: 30px;
   height: 30px;
   transition: transform 0.3s ease;
@@ -40,23 +31,21 @@ body {
   transform: scale(1.2);
 }
 
-
 .nav {
   display: none; 
 }
 
 .nav a {
   text-decoration: none;
-  color: #333333;
+  color: #E6E6E6; /* Світло-сірий */
   margin: 0 1rem;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .nav a:hover {
-  color: #41badb;
+  color: #38BDF8; /* Бірюзовий */
 }
-
 
 .mobileMenu {
   display: none; 
@@ -65,7 +54,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, #bbdafa, #ffffff);
+  background: linear-gradient(to bottom, #1A1B26, #0D1117); /* Темний градієнт */
   z-index: 15;
   overflow: hidden;
   transform: translateY(-100%);
@@ -88,7 +77,7 @@ body {
 
 .mobileMenuItem {
   text-decoration: none;
-  color: #333333;
+  color: #E6E6E6; /* Світло-сірий */
   margin: 1rem 0;
   font-size: 1.5rem;
   font-weight: bold;
@@ -96,9 +85,8 @@ body {
 }
 
 .mobileMenuItem:hover {
-  color: #41badb;
+  color: #38BDF8; /* Бірюзовий */
 }
-
 
 .closeButton {
   position: absolute;
@@ -111,11 +99,10 @@ body {
 }
 
 .closeHeader {
-  fill: #333333;
+  fill: #C4B5FD; /* Світло-фіолетовий */
   width: 30px;
   height: 30px;
 }
-
 
 @media (min-width: 768px) {
   .menuButton {
@@ -129,7 +116,6 @@ body {
     flex-grow: 1;
   }
 }
-
 
 @media (min-width: 1024px) {
   .header {

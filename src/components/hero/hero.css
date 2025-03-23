@@ -2,34 +2,54 @@
     
     height: 50vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #333;
+    gap: 30px;
+    color: #3B82F6;
   }
   
   .hero-title {
     font-size: 28px;
     font-weight: bold;
-    color: #333333;
+    color: #3B82F6;
     margin-bottom: 5px;
   }
   
   .hero-text{
     font-size: 28px;
-    color: #424242;
+    color: #38BDF8;
     font-weight: 550;
   }
+
+  /* .port-photo{
+    border: 1px solid #3B82F6;
+  } */
+
+  .portfolio-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #3B82F6;
+  }
+
 
   @media (min-width:768px) {
     .hero{
         height:80vh ;
-      
+      flex-direction: row;
+    }
+
+    .portfolio-image{
+      width: 500px;
+    height: 500px;
     }
 
     .hero-title{
         font-size: 32px;
         margin-bottom: 10px;
+        width: 500px;
     }
   }
 

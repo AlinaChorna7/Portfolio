@@ -3,7 +3,7 @@
   --second-family: "Inter", sans-serif;
   width: 100%;
   height: 100%;
-  background-color: #fdfefb;
+ 
 
  
     
@@ -30,10 +30,10 @@ img{
   max-width: 100%;
   height: auto;
 }
-
+/* 
 body{
-  background: linear-gradient(to bottom, #bbdafa, #ffffff);
-}
+  background-color: ;
+} */
 
 .container{
   --font-family: "Urbanist", sans-serif;
