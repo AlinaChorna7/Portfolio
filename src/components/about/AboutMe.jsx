@@ -54,37 +54,82 @@ const AboutMe = () => {
           </Accordion>
         </div>
        
+
+
          <div className="skills">
-          <h3 className='skills-title'>My tech skills</h3>
-          <ul className="skills-list">
-            <li className="skills-item">JavaScript (ES6+)</li>
-            <li className="skills-item">React</li>
-            <li className="skills-item">Node.js & Express</li>
-            <li className="skills-item">HTML5 & CSS3</li>
-            <li className="skills-item">Version Control (Git)</li>
-            <li className="skills-item">API Integration</li>
-            <li className="skills-item">Database Management</li>
-            <li className="skills-item">Testing</li>
-          </ul>
-          <h3 className='skills-title'>My soft skills</h3>
-          <ul className="skills-list">
-            <li className="skills-item">Problem-Solving</li>
-            <li className="skills-item">Teamwork</li>
-            <li className="skills-item">Time Management</li>
-            <li className="skills-item">Adaptability</li>
-            <li className="skills-item">Communication</li>
-            <li className="skills-item">Attention to Detail</li>
-            <li className="skills-item">Creativity</li>
-          </ul>
-          <h3 className='skills-title'>Languages I speak</h3>
-          <ul className="skills-list">
-            <li className="skills-item">English - B2</li>
-            <li className="skills-item">Polish - B2</li>
-            <li className="skills-item">Ukrainian - Native</li>
-            <li className="skills-item">Russian - C2</li>
-            <li className="skills-item">Italian - A1</li>
-            
-          </ul>
+         <div className='languages-tech'>
+    <h4 className='tech-lang'>Programming Languages:</h4>
+  <ul className='skills-list'>
+    <li className='skills-item'>
+     <svg width="20px" height="20px" className='lang-icon'>
+      <use href='/images/skills.svg#icon-javascript'/>
+     </svg>
+     <p className='skills-lang'>JavaScript</p>
+    </li>
+    <li className='skills-item'>
+    <svg width="20px" height="20px" className='lang-icon'>
+      <use href='/images/skills.svg#icon-typescript'/>
+     </svg>
+     <p className='skills-lang'>TypeScript</p>
+    </li>
+  </ul>
+  </div>
+  <div className='front-skills'>
+    <h4 className="front-title">Frontend:</h4>
+    <ul className='front-skills-list'>
+      <li className='fromt-item'>
+        <svg width="20px" height="20px" className='front-icon'>
+          <use href='/images/skills.svg#icon-htmx'/>
+          
+        </svg>
+        <p className='front-tech'>HTML&CSS</p>
+      </li>
+      <li className='fromt-item'>
+        <svg width="20px" height="20px" className='front-icon'>
+          <use href='/images/skills.svg#icon-react-svgrepo-com'/>
+        </svg>
+        <p className='front-tech'>React</p>
+        </li>
+      <li className='fromt-item'>
+        <svg width="20px" height="20px" className='front-icon'>
+          <use href='/images/skills.svg#icon-redux'/>
+        </svg>
+        <p className='front-tech'>Redux</p>
+        </li>
+      <li className='fromt-item'>
+        <svg width="20px" height="20px" className='front-icon'>
+          <use href='/images/skills.svg#icon-web-design-svgrepo-com'/>
+        </svg>
+        <p className='front-tech'>Responsive/Adaptive Design</p>
+        </li>
+    </ul>
+  </div>
+  <div className='front-skills'>
+    <h4 className="front-title">Backend:</h4>
+    <ul className='front-skills-list'>
+      <li className='fromt-item'>
+        <svg width="20px" height="20px" className='front-icon'>
+          <use href='/images/skills.svg#icon-nodedotjs'/>
+          
+        </svg>
+        <p className='front-tech'>Node.js&Express.js</p>
+      </li>
+  
+      <li className='fromt-item'>
+        <svg width="20px" height="20px" className='front-icon'>
+          <use href='/images/skills.svg#icon-database-svgrepo-com'/>
+        </svg>
+        <p className='front-tech'>MongoDB</p>
+        </li>
+      <li className='fromt-item'>
+        <svg width="20px" height="20px" className='front-icon'>
+          <use href='/images/skills.svg#icon-rest-api-svgrepo-com'/>
+        </svg>
+        <p className='front-tech'>REST API</p>
+        </li>
+      
+    </ul>
+  </div>
         </div>
       </div>
     </section>

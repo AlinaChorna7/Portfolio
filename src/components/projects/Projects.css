@@ -1,7 +1,6 @@
 .projects-section {
     padding: 30px;
-    border-bottom: 1px solid #71a2b6;
-    border-top: 1px solid #71a2b6;
+  
 
 }
 
@@ -19,7 +18,7 @@
     font-size: 24px; 
     font-weight: bold;
     text-align: center;
-    color: #333333;
+    color: #3B82F6;
     
     margin-bottom: 20px;
 }
@@ -36,7 +35,7 @@
 
 .projects-text {
     font-size: 1.2rem;
-    color: #555;
+    color: #38BDF8;
     line-height: 1.6;
 }
 
@@ -52,7 +51,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: rgba(255, 255, 255, 0.8);
+    background: #E6E6E6;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

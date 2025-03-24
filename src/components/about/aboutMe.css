@@ -2,8 +2,7 @@
 .about-section {
     padding:30px;
     margin: 0 auto;
-    border-bottom: 1px solid #71a2b6;
-    border-top: 1px solid #71a2b6;
+   
    
   }
   
@@ -11,7 +10,7 @@
     font-size: 24px; 
     font-weight: bold;
     text-align: center;
-    color: #333333;
+    color: #3B82F6;
 
     margin-bottom: 20px;
   }
@@ -24,7 +23,7 @@
   }
   
   .about-text {
-    color: #333333;
+    color: #38BDF8;
     font-size: 14px; 
     line-height: 1.5;
     
@@ -65,26 +64,69 @@
   }
   
 
- .skills-list {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+   
+    border-radius: 10px;
+  }
+  
+  .skills-title {
+    text-align: center;
+    color: #3B82F6;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .tech-lang, .front-title {
+    color: #38BDF8;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .skills-list, .front-skills-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
   }
-
-.skills-item{
-    display: inline-block;
-    padding: 10px;
-    border: 1px solid #71a2b6;
-    background-color: #71a2b6;
-    border-radius: 20px;
-    transition: background-color  0.3s ease;
-    color:#ffffff;
-}
-
-.skills-item:hover{
-    background-color: #88a9b6;
-}
   
+  .skills-item, .fromt-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    padding: 5px;
+    border-radius: 8px;
+    color: #3B82F6;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: none;
+    transition: transform 0.3s;
+    width: 80px;
+  }
+  
+  .skills-item:hover, .fromt-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .lang-icon, .front-icon {
+    width: 32px;
+    height: 32px;
+    fill: #3B82F6;
+  }
+  
+  .skills-lang, .front-tech {
+    margin: 0;
+    text-align: center;
+    font-size: 0.8rem;
+  } 
   @media (min-width: 768px) {
     .about-title {
       font-size: 28px;
@@ -102,6 +144,17 @@
     .custom-accordion .accordion-body {
       font-size: 15px;
       
+    }
+    .skills {
+      padding: 15px;
+    }
+    .skills-list, .front-skills-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .skills-item, .fromt-item {
+      width: 90%;
+      justify-content: center;
     }
 
     .skill-swiper-conteiner {
@@ -136,12 +189,12 @@
       flex: 1;
     }
 
-   
+    
     .skills {
       flex: 1;
       display: flex;
-      flex-direction: column;
-    }
+      flex-direction: row;
+    } 
   
     .about-text {
       font-size: 18px;
@@ -175,6 +228,10 @@
     .skills-title {
       font-size: 24px;
       margin-bottom: 15px;
+    }
+
+    .front-skills-list{
+      flex-direction: row;
     }
   }
   
