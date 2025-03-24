@@ -31,6 +31,8 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    background: url(/public/images/portfolio-photo.jpg)  top;
+    background-size: 350px;
     border: 1px solid #3B82F6;
   }
 
@@ -42,14 +44,17 @@
     }
 
     .portfolio-image{
-      width: 500px;
-    height: 500px;
+      width: 400px;
+    height: 400px;
+    }
+    .hero-container{
+      margin-right: 40px;
     }
 
     .hero-title{
-        font-size: 32px;
+        font-size: 26px;
         margin-bottom: 10px;
-        width: 500px;
+        width: 400px;
     }
   }
 
