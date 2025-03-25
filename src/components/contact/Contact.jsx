@@ -29,7 +29,7 @@ const ContactMe = () => {
       <h3 className='project-title'>Contact Me</h3>
       <div className='content-container'>
       <div className='contacts-container'>
-        <h4 className='contactme'>Contacts me here</h4>
+        <h4 className='contactme'>Where to Find Me</h4>
         <ul className='contact-list'>
           <li className="contacts-item">
             <div>

@@ -33,7 +33,7 @@ ul {
 
 .contacts-container {
     padding: 15px 20px;
-    background-color: #E6E6E6;
+    /* background-color: #E6E6E6; */
     border: 1px solid #E6E6E6;
     border-radius: 15px;
 }
@@ -50,10 +50,11 @@ ul {
 
 .contacts-item {
     padding: 10px;
-    background-color: #38BDF8;;
+    background-color: #E6E6E6;
     width: 250px;
     color: #333333;
     border-radius: 15px;
+    border: 1px solid #38BDF8;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -61,6 +62,11 @@ ul {
 .contacts-item:hover {
     transform: translateY(-5px);
     background-color: #c7e2f5;
+}
+
+.contactme{
+    color: #0A66C2;
+    
 }
 
 .contacts-icons {
@@ -85,16 +91,17 @@ ul {
 
 .form-container {
     padding: 15px 20px;
-    background-color: #E6E6E6;
-    border: 1px solid #E6E6E6;
+    /* background-color: rgba(230, 230, 230, 0.5);  */
+    border: 1px solid rgba(230, 230, 230, 0.5);
     border-radius: 15px;
 }
+
 
 form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333333;
+    color: #38BDF8;
 }
 
 form input,
